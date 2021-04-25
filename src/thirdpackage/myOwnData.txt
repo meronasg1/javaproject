@@ -1,0 +1,7 @@
+BY the end of
+this mentoring session,
+we will be
+experts at reading
+text files and
+property files
+using Java
