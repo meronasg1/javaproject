@@ -13,12 +13,13 @@ public class ConnectionForSql1 {
 
         // jdbc:mysql --> driver name
         // localhost --> host name
-        // 3306 --> port number
+        // 3306 --> port number  <-- Possible interview question: what is the default port number to connect to mysql database server 3306.
 
         // SSL error --> ?useSSL=false
         // server timezone --> ?serverTimezone=UTC
         // both --> ?serverTimezone=UTC&useSSL=false
 
+        //need to build a url and a query
         String url = "jdbc:mysql://localhost:3306/" + dbName + "";
         String query = "select * from students;";
 
